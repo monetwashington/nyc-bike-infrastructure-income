@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+output/
+*B19013-Data.csv
+*B19013-Column-Metadata.csv
+*B19013-Table-Notes.txt
+2020_Census_Tracts*.geojson
+New_York_City_Bike_Routes*.geojson
+FACILITY_TYPES_README.md
+final_gallery_draft.html
+final_project_summary_draft.md
+inspection_console.txt
+.DS_Store
+Thumbs.db
