@@ -43,3 +43,13 @@ python .\09_map_bike_infrastructure_types.py
 ```
 
 The scripts use shared paths and helpers from `project_common.py`. Generated files are written to `output/`. `create_presentation_charts.py` is an additional chart-generation script.
+
+## View the results
+
+Pre-rendered charts, maps, presentation-ready PNG/SVG files, a PDF, and supporting summary tables are included in [`results/`](results/README.md). To recreate the presentation charts after running the numbered scripts, run:
+
+```powershell
+python .\create_presentation_charts.py
+```
+
+The input data files are not included in this repository. The README links above point to their source pages; downloading newer data may produce different results.
